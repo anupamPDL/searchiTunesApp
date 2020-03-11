@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lockscreen" translatesAutoresizingMaskIntoConstraints="NO" id="foL-fM-qW5">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iOS 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p8P-dy-jNf">
+                                <rect key="frame" x="133" y="413" width="148" height="70"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="60"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iOS 2 - Final Project - Anupam Poudel ©️ 2020" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FLf-fm-dlv">
+                                <rect key="frame" x="8" y="798" width="398" height="19"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Search anything on iTunes!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DI0-hm-reT">
+                                <rect key="frame" x="8" y="491" width="398" height="23.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="NC6-7Y-ceI">
+                                <rect key="frame" x="197" y="438" width="20" height="20"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="p8P-dy-jNf" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="0V5-0W-byg"/>
+                            <constraint firstItem="foL-fM-qW5" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="5O2-iF-reF"/>
+                            <constraint firstItem="NC6-7Y-ceI" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="BgE-Hz-HbK"/>
+                            <constraint firstItem="foL-fM-qW5" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="IOb-9w-Bdb"/>
+                            <constraint firstItem="FLf-fm-dlv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="MbH-ON-2Bt"/>
+                            <constraint firstItem="DI0-hm-reT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="PYj-82-xol"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="FLf-fm-dlv" secondAttribute="bottom" constant="45" id="Pm0-2E-n4F"/>
+                            <constraint firstItem="foL-fM-qW5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="RjA-oe-GYF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DI0-hm-reT" secondAttribute="trailing" constant="8" id="Sik-UW-rcq"/>
+                            <constraint firstItem="p8P-dy-jNf" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="kUL-AU-bUK"/>
+                            <constraint firstItem="NC6-7Y-ceI" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="pu3-Vi-J5f"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FLf-fm-dlv" secondAttribute="trailing" constant="8" id="qza-wP-tm7"/>
+                            <constraint firstItem="DI0-hm-reT" firstAttribute="top" secondItem="p8P-dy-jNf" secondAttribute="bottom" constant="8" id="uiU-sK-F4L"/>
+                            <constraint firstItem="foL-fM-qW5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="vTu-pR-yjW"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="lockscreen" width="925" height="610"/>
+    </resources>
+</document>
